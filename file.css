@@ -1,0 +1,86 @@
+*{
+    margin: 5px;
+    padding: 5px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+body{
+    height: 100vh;
+    background-image: url("https://img.freepik.com/premium-vector/concept-big-data-processing-energy-station-future-server-room-rack-data-center-isometric_34950-683.jpg?w=360");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    position: absolute;
+    box-shadow: 0 0 5px;
+    width: 85%;
+    color: #fff;
+    font-size: 15px;
+}
+nav.logo{
+    float: left;
+    color: #fff;
+    margin-left: 3px;
+    padding: 5px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.logo a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+.nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+.nav ul{
+    list-style: none;
+    cursor: pointer;
+    float: right;
+    margin-right: 140px;
+}
+.container h3{
+    color: #fff;
+}
+.nav ul li{
+    padding: 8px 10px;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+nav ul li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2% 5%;
+}
+.row .column1{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.column1 button{
+    width: 150px;
+    padding: 12px 20px;
+    border-radius: 20px;
+    border-style: none;
+    color: #fff;
+    background-color: blue;
+    font-size: 17px;
+    font-weight: 600;
+}
